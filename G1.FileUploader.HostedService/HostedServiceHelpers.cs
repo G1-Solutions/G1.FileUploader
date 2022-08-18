@@ -24,7 +24,7 @@ namespace G1.FileUploader.HostedService
 
 			bool.TryParse( context.Configuration["useSsl"], out bool useSsl );
 
-			if( !bool.TryParse( context.Configuration["usePassiveMode"], out bool usePassiveMode ) )
+			if( !bool.TryParse( context.Configuration["usePassiveFtp"], out bool usePassiveMode ) )
 				usePassiveMode = true;
 
 			return new FileUploaderService(
