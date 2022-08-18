@@ -12,10 +12,16 @@ Other supported parameters:
 - useSsl: whether to use tls/ssl, defaults to false
 - usePassiveFtp: whether to use passive FTP mode, defaults to true
 
-## Log
+### Log
 Information and errors are written to console and log file in ***logs*** folder by default.
 
 Logging can be customized by modifying [Serilog](https://github.com/serilog/serilog-settings-configuration) configuration in ***appsettings.json*** file.
+
+### Termination
+
+Application will terminate upon SIGINT (ctrl+c) or SIGTERM signal from operating system.
+
+Termination will complete after all queued files are uploaded.
 
 ## Requirements
 - [.NET Core Runtime ( v3.1 or later )](https://dotnet.microsoft.com/en-us/download)
