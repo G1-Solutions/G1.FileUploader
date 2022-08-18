@@ -3,6 +3,12 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.1</TargetFramework>
 		<RootNamespace>FileUploader</RootNamespace>
+		<Company>G1 Solutions</Company>
+		<Authors>ND</Authors>
+		<Product>G1.FileUploader</Product>
+		<PackageLicenseExpression>AFL-3.0</PackageLicenseExpression>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/G1-Solutions/G1.FileUploader</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>

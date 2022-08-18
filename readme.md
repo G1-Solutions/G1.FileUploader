@@ -13,7 +13,7 @@ Other supported parameters:
 - usePassiveFtp: whether to use passive FTP mode, defaults to true
 
 ## Requirements
-- .NET Core Runtime ( v3.1 or later )
+- [.NET Core Runtime ( v3.1 or later )](https://dotnet.microsoft.com/en-us/download)
 
 ## Not Supported
 - Implicit TLS
