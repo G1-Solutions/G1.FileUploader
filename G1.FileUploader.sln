@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1.FileUploader.Cli", "G1.FileUploader.Cli\G1.FileUploader.Cli.csproj", "{C2EEE64B-55DF-4F8A-B2A5-393F7B65AC0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1.FileUploader.Host", "G1.FileUploader.Host\G1.FileUploader.Host.csproj", "{C2EEE64B-55DF-4F8A-B2A5-393F7B65AC0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1.FileUploader", "G1.FileUploader\G1.FileUploader.csproj", "{032FA191-4B0D-4AFA-A3EF-56F35EC918F6}"
 EndProject
